@@ -1,3 +1,17 @@
+<widget id="com.findmysteve.app" version="0.0.1">
+        <name>Find My Steve</name>
+        <description>
+            A sample Apache Cordova application that responds to the deviceready event.
+        </description>
+        <author email="dev@callback.apache.org" href="http://phonegap.com">
+            Apache Cordova Team
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <preference name="Fullscreen" value="true" />
+        <preference name="WebViewBounce" value="true" />
+    </widget>
+
 <rim:permissions>
     <rim:permit>read_geolocation</rim:permit>
 </rim:permissions>
