@@ -10,8 +10,7 @@
         <access origin="*" />
         <preference name="Fullscreen" value="true" />
         <preference name="WebViewBounce" value="true" />
+
+        <gap:plugin name="org.apache.cordova.geolocation" />
     </widget>
 
-<rim:permissions>
-    <rim:permit>read_geolocation</rim:permit>
-</rim:permissions>
